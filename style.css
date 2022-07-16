@@ -1,0 +1,355 @@
+#rohitlogo{
+    height: 50px;
+    width: 55px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #4b6cc1;
+    font-size: 35px;
+    padding-bottom: 50px;
+    padding-left: 8px;
+}
+#navList1{
+    color: #fff;
+}
+#navList2{
+    color: #fff;
+}
+#navList3{
+    color: #fff;
+}
+#navList4{
+    color: #fff;
+}
+#navList5{
+    color: #fff;
+}
+#navList1:hover{
+    color: #323f4b;
+}
+#navList2:hover{
+    color: #323f4b;
+}
+#navList3:hover{
+    color: #323f4b;
+}
+#navList4:hover{
+    color: #323f4b;
+}
+#navList5:hover{
+    color: #323f4b;
+}
+
+.nav-hover:hover{
+    background-color: azure;
+}
+.rohit-home-container{
+    background-color: #191a1d;
+    background-size: cover;
+    height: 100vh;
+}
+.rohit-home-image{
+    height: 390px;
+    width: 390px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.rohit-main-heading{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 450;
+}
+.rohit-para{
+    color: #9aa5b1;
+    font-size: 20px;
+}
+.rohit-span{
+    color: #4b6cc1;
+}
+
+
+
+
+
+
+
+
+.aboutme-home-container{
+    background-color: #323f4b;
+}
+.aboutme-para{
+    color: #cced00;
+    font-size: 30px;
+    font-weight: 500;
+}
+.aboutme-heading{
+    color: #fff;
+}
+.aboutme-img{
+    height: 500px;
+    width: 200%;
+    margin-bottom: 15px;
+}
+.aboutme-discription{
+    color: #9aa5b1;
+}
+.skill-home-container{
+    background-color: #1f2933;
+    margin:20px;
+    padding: 20px;
+}
+.skill-img{
+    height: 95px;
+    width: 95px;
+    margin: 2px;
+}
+.data{
+    font-size: 15px;
+}
+.skill-heading{
+    color: #fff;
+    margin-top: 2px;
+}
+.skill-card{
+    height: 160px;
+    width: 100px;
+    background-color: #323f4b;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.certificate-home-container{
+    background-color: #52606d;
+
+    
+}
+.certificate-heading{
+    color: #cced00;
+    font-weight: 500;
+}
+.certificate-main-heading{
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+}
+.certificate-card{
+    background-color: #323f4b;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.certificate-image{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.certificate-card-heading{
+    color: white;
+    font-size: 30px;
+}
+.certificate-card-para{
+    color: #52606d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+.project-image{
+    height: 250px;
+    background-size: cover;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.project-home-container{
+    padding: 10px;
+    background-color: #3e4c59;
+    height: 100vh;
+    width: 100%;
+}
+.project-card{
+    background-color: #323f4b;
+    margin-bottom: 10px;
+}
+
+.project-main-heading{
+    color:#fff;
+}
+.project-sub-heading{
+    color: #959ead;
+}
+.project-para{
+    color:#959ead;
+}
+.project-readmore{
+    font-weight: 600;
+    color: #cced00;
+}
+.project-main-sub-heading{
+    color: white;
+    font-weight: 500;
+}
+.project-starting-para{
+    color: #cced00;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.service-home-container{
+    background-color: #52606d;
+
+    
+}
+.service-heading{
+    color: #cced00;
+    font-weight: 500;
+}
+.service-main-heading{
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+}
+.service-card{
+    background-color: #323f4b;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.service-image{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.service-card-heading{
+    color: white;
+    font-size: 30px;
+}
+.service-card-para{
+    color: #52606d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+.work-home-container{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png);
+    height: 100vh;
+    background-size: cover;
+}
+.work-horizontal{
+    background-color: #fff;
+}
+.work-card{
+    width: 300px;
+    margin: 30px;
+}
+.work-number{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+.work-para{
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-container{
+    background-color: #19232d;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    height: 50px;
+    width: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.icons{
+    font-size: 30px;
+    padding: 13px;
+    background-color: #202b36;
+    border-width: 0px;
+    border-radius: 40px;
+    color:#959ead ;
+    margin: 10px;
+}
+.para{
+    color: #959ead;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+.contact-icons{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 8px;
+    color: #959ead;
+    background-color: #19232d;
+}
+.sub-head{
+    color: #959ead;
+    margin-top: 10px;
+}
+.para-2{
+    color: #959ead;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+}
+.horizontalline{
+    background-color: #959ead;
+}
