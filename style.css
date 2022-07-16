@@ -166,7 +166,10 @@
     font-size: 20px;
     font-weight: 500;
 }
-
+.certificate-btn:hover{
+    color: black;
+    background-color: #ea7731;
+}
 
 
 
