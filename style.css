@@ -41,6 +41,8 @@
 
 .nav-hover:hover{
     background-color: azure;
+    transform: scale(1.09);
+    transition-duration: 0.5s;
 }
 .rohit-home-container{
     background-color: #191a1d;
