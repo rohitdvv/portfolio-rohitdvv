@@ -118,6 +118,10 @@
     margin-bottom: 18px;
     margin-left: 10px;
 }
+.skill-card:hover{
+    transform: scale(1.2);
+    transition-duration: 0.9s;
+}
 
 
 
@@ -170,7 +174,17 @@
     color: black;
     background-color: #ea7731;
 }
-
+.certificate-card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+.travellel{
+    text-decoration: none;
+    color: #ea7731;
+}
+.travellel:hover{
+    text-decoration: none;
+}
 
 
 
@@ -197,6 +211,11 @@
 .project-card{
     background-color: #323f4b;
     margin-bottom: 10px;
+
+}
+.project-card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
 }
 
 .project-main-heading{
@@ -252,6 +271,11 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.service-card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
 .service-image{
     height: 50px;
     width: 50px;
@@ -314,6 +338,7 @@
     background-color: #19232d;
     background-size: cover;
     height: 100vh;
+    margin: 2px;
 }
 .logo{
     height: 50px;
@@ -322,6 +347,7 @@
     margin-top: 10px;
 }
 .icons{
+    text-decoration: none;
     font-size: 30px;
     padding: 13px;
     background-color: #202b36;
@@ -329,6 +355,11 @@
     border-radius: 40px;
     color:#959ead ;
     margin: 10px;
+}
+.icons:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    text-decoration: none;
 }
 .para{
     color: #959ead;
@@ -342,6 +373,11 @@
     margin-right: 8px;
     color: #959ead;
     background-color: #19232d;
+    text-decoration: none;
+}
+.contact-icons:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 }
 .sub-head{
     color: #959ead;
