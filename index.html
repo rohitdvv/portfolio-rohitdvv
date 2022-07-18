@@ -411,7 +411,7 @@
                         <input type="email" placeholder="enter your mobile number">
                         <label  class="contact-me-label">What you want to say :</label>
                         <textarea class="contact-me-textarea" placeholder="Write your message here..."></textarea>
-                        <button class="btn btn-dark contact-me-button" onclick="">Send message</button>
+                        <button class="btn btn-dark contact-me-button" onclick="Clear()">Send message</button>
 
                     </div>
 
@@ -427,6 +427,16 @@
             </div>
         </div>
 
+
+           <script>
+            function Clear(){
+                document.getElementById("name").value ="";
+                document.getElementById("email").value ="";
+                document.getElementById("number").value ="";
+                document.getElementById("typehere").value ="";
+                alert("Message has been send successfully");
+             }
+          </script>
 
 
 
