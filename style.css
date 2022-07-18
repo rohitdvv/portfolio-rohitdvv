@@ -299,6 +299,65 @@
 
 
 
+.contact-me-home-container{
+    padding: 10px;
+    background-color: #3e4c59;
+    height: 100vh;
+}
+.contact-me-card{
+    background-color: #323f4b;
+    margin-bottom: 10px;
+}
+.contact-me-map{
+    padding: 0px;
+}
+
+.contact-me-main-heading{
+    color:#fff;
+}
+.contact-me-sub-heading{
+    color: #959ead;
+}
+.contact-me-para{
+    color:#959ead;
+}
+.contact-me-readmore{
+    font-weight: 600;
+    color: #cced00;
+}
+.contact-me-main-sub-heading{
+    color: white;
+    font-weight: 500;
+}
+.contact-me-starting-para{
+    color: #cced00;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-me-label{
+    color: #959ead;
+}
+.contact-me-textarea{
+    resize: none;
+    height: 100px;
+}
+.contact-me-button{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
