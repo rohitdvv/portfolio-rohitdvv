@@ -347,6 +347,14 @@
     margin-top: 10px;
     margin-left: 30%;
 }
+.input{
+    margin-top: 20px;
+}
+.input:hover{
+    background-color: #19232d;
+    border-bottom: 2px solid #f28825;
+    color: #959ead;
+}
 
 
 
