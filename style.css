@@ -67,6 +67,25 @@
 .rohit-span{
     color: #4b6cc1;
 }
+.rohit-home-container-contact-btn{
+    display:inline-block;
+    padding:5px 10px;
+    color:#2196f3;
+    Letter-spacing:0px;
+    text-decoration:none;
+    font-size:20px;
+    overflow:hidden;
+    transition:0.2s;
+}
+.rohit-home-container-contact-btn:hover{
+    color:#255784;
+    background:#2196f3;
+    box-shadow:0 0 2px#2196f3,0 0 15px#2196f3,0 0 20px #2196f3;
+    transition-delay: 0.11s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 
 
 
