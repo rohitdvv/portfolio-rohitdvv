@@ -23,6 +23,7 @@
 #navList5{
     color: #fff;
 }
+/*
 #navList1:hover{
     color: #323f4b;
 }
@@ -43,7 +44,30 @@
     background-color: azure;
     transform: scale(1.1);
     transition-duration: 0.5s;
+} */
+
+.nav-hover{
+    position: relative;
+    color: #fff;
 }
+.nav-hover:hover::after{
+    width: 100%;
+   /* transform: scale(1.1);
+    transition-duration: 0.5s;*/
+}
+.nav-hover:after{
+    content: "";
+    position: absolute;
+    background-color: #ff851b;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;    
+}
+
+
+
 .rohit-home-container{
     background-color: #191a1d;
     background-size: cover;
