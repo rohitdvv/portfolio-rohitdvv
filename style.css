@@ -250,7 +250,7 @@
 .project-home-container{
     padding: 10px;
     background-color: #3e4c59;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .project-card{
