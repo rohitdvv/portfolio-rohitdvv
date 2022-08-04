@@ -251,7 +251,7 @@
     padding: 10px;
     background-color: #3e4c59;
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 .project-card{
     background-color: #323f4b;
