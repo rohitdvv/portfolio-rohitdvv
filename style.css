@@ -23,6 +23,7 @@
 #navList5{
     color: #fff;
 }
+/*
 #navList1:hover{
     color: #323f4b;
 }
@@ -41,7 +42,32 @@
 
 .nav-hover:hover{
     background-color: azure;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+} */
+
+.nav-hover{
+    position: relative;
+    color: #fff;
 }
+.nav-hover:hover::after{
+    width: 100%;
+   /* transform: scale(1.1);
+    transition-duration: 0.5s;*/
+}
+.nav-hover:after{
+    content: "";
+    position: absolute;
+    background-color: #ff851b;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;    
+}
+
+
+
 .rohit-home-container{
     background-color: #191a1d;
     background-size: cover;
@@ -65,6 +91,25 @@
 .rohit-span{
     color: #4b6cc1;
 }
+.rohit-home-container-contact-btn{
+    display:inline-block;
+    padding:8px 20px;
+    color:#2196f3;
+    Letter-spacing:0px;
+    text-decoration:none;
+    font-size:20px;
+    overflow:hidden;
+    transition:0.2s;
+}
+.rohit-home-container-contact-btn:hover{
+    color:#255784;
+    background:#2196f3;
+    box-shadow:0 0 5px #2196f3,0 0 20px #2196f3,0 0 35px #2196f3;
+    transition-delay: 0.11s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 
 
 
@@ -95,7 +140,7 @@
 .skill-home-container{
     background-color: #1f2933;
     margin:20px;
-    padding: 20px;
+    width:100%;
 }
 .skill-img{
     height: 95px;
@@ -117,6 +162,10 @@
     padding-top: 20px;
     margin-bottom: 18px;
     margin-left: 10px;
+}
+.skill-card:hover{
+    transform: scale(1.2);
+    transition-duration: 0.9s;
 }
 
 
@@ -166,8 +215,21 @@
     font-size: 20px;
     font-weight: 500;
 }
-
-
+.certificate-btn:hover{
+    color: black;
+    background-color: #ea7731;
+}
+.certificate-card:hover{
+    transform: scale(1.06);
+    transition-duration: 0.5s;
+}
+.travellel{
+    text-decoration: none;
+    color: #ea7731;
+}
+.travellel:hover{
+    text-decoration: none;
+}
 
 
 
@@ -188,12 +250,17 @@
 .project-home-container{
     padding: 10px;
     background-color: #3e4c59;
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+    width: 100vw;
 }
 .project-card{
     background-color: #323f4b;
     margin-bottom: 10px;
+
+}
+.project-card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
 }
 
 .project-main-heading{
@@ -249,6 +316,11 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.service-card:hover{
+    transform: scale(1.06);
+    transition-duration: 0.5s;
+}
+
 .service-image{
     height: 50px;
     width: 50px;
@@ -263,6 +335,73 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+
+
+
+
+
+
+.contact-me-home-container{
+    padding: 10px;
+    background-color: #3e4c59;
+    height: 100vh;
+}
+.contact-me-card{
+    background-color: #323f4b;
+    margin-bottom: 10px;
+}
+.contact-me-map{
+    padding: 0px;
+}
+
+.contact-me-main-heading{
+    color:#fff;
+}
+.contact-me-sub-heading{
+    color: #959ead;
+}
+.contact-me-para{
+    color:#959ead;
+}
+.contact-me-readmore{
+    font-weight: 600;
+    color: #cced00;
+}
+.contact-me-main-sub-heading{
+    color: white;
+    font-weight: 500;
+}
+.contact-me-starting-para{
+    color: #cced00;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-me-label{
+    color: #959ead;
+}
+.contact-me-textarea{
+    resize: none;
+    height: 100px;
+}
+.contact-me-button{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.input{
+    margin-top: 20px;
+}
+.input:hover{
+    background-color: #19232d;
+    border-bottom: 2px solid #f28825;
+    color: #959ead;
+}
+
+
+
+
 
 
 
@@ -311,6 +450,7 @@
     background-color: #19232d;
     background-size: cover;
     height: 100vh;
+    margin: 2px;
 }
 .logo{
     height: 50px;
@@ -319,6 +459,7 @@
     margin-top: 10px;
 }
 .icons{
+    text-decoration: none;
     font-size: 30px;
     padding: 13px;
     background-color: #202b36;
@@ -326,6 +467,11 @@
     border-radius: 40px;
     color:#959ead ;
     margin: 10px;
+}
+.icons:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    text-decoration: none;
 }
 .para{
     color: #959ead;
@@ -339,6 +485,11 @@
     margin-right: 8px;
     color: #959ead;
     background-color: #19232d;
+    text-decoration: none;
+}
+.contact-icons:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 }
 .sub-head{
     color: #959ead;
